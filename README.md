@@ -14,6 +14,6 @@ TIP: After a game softly edit players' mmr depending on their in-game performanc
 
 ## License
 
-This software is released under the [MIT](https://github.com/molenzwiebel/Mimic/blob/master/LICENSE) license. Feel free to browse through the code as you like, and if you end up making any improvements or changes, please do not hesitate to make a pull request. :)
+This software is released under the [MIT](https://github.com/lorenzua02/matchmaking/blob/main/LICENSE) license. Feel free to browse through the code as you like, and if you end up making any improvements or changes, please do not hesitate to make a pull request. :)
 
 N.B.: This is my first python program and my first github public project! For any suggestion, please write me on discord (Lollo#9343) or open an issue here on github
