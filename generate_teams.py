@@ -3,6 +3,7 @@
 import json
 
 
+# I made it recursive just as a test stop flaming me wtf
 def nextPossible(index=0):
     if index >= 10:
         return False
@@ -18,11 +19,8 @@ def nextPossible(index=0):
 
 
 data = json.load(open('input.json'))
-pointers, recordPointers = [], []
-record = 99999  # TODO not clean, redo it
-
-for i in range(10):
-    pointers.append(False)
+pointers, recordPointers = [False for _ in range(10)], []
+record = 99999  # TODO not clean
 
 while nextPossible():
     mmr_a, mmr_b = 0, 0
@@ -47,5 +45,4 @@ print("Team A: ", players_a)
 print("Team B: ", players_b)
 # print("Difference: ", record)
 
-input() # TODO another way to pause the program?
-
+input()
